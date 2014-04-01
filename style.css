@@ -1,0 +1,182 @@
+body {
+	background: #FFF url("img/logo_campus.png") no-repeat;
+    background-size: 260px;
+	color: #334;
+	font: normal 75% 'Lucida Grande', 'Lucida Sans Unicode', 'Bitstream Vera Sans', Arial, sans-serif;
+}
+
+#text {
+	margin: 50px 10px 10px 200px;
+}
+
+#header {
+    margin-bottom: 20px;
+}
+
+#headerHTML5 {
+    margin-bottom: 20px;
+}
+
+#html5 {
+    display: inline-block;
+    min-height: 40px;
+    _height: 40px;
+    text-decoration: none;
+    padding:10px 0px 0px 50px;
+    color: #000;
+    /* safari 3.1+ fun (or, proprietary crap. TBD.) */
+    -webkit-transition-property: hover;
+    -webkit-transition: all 0.25s ease-in-out;
+}
+
+#html5.playing {	
+    background: url(img/icon_pause.png) no-repeat 0px 50%;
+    _background-image: url(img/icon_pause.gif);
+    text-decoration: none;
+}
+
+#html5.paused {	
+    background: url(img/icon_play.png) no-repeat 0px 50%;
+    _background-image: url(img/icon_play.gif); /* IE 6 */
+    text-decoration: none;
+}
+
+.grey {
+	color: grey;	
+}
+
+.grey a {
+    color: grey;
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a img {
+	border: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a.sm2_link {
+    display: inline-block;
+    min-height: 40px;
+    _height: 40px;
+    text-decoration: none;
+    padding:10px 0px 0px 50px;
+    color: #000;
+    /* safari 3.1+ fun (or, proprietary crap. TBD.) */
+    -webkit-transition-property: hover;
+    -webkit-transition: all 0.25s ease-in-out;
+}
+
+a.sm2_link, a.sm2_paused:hover, a.sm2_link:hover {
+    background: url(img/icon_play.png) no-repeat 0px 50%;
+    _background-image: url(img/icon_play.gif); /* IE 6 */
+    text-decoration: none;
+}
+
+a.sm2_paused {
+
+}
+
+a.sm2_paused:hover {
+    background: url(img/icon_play.png) no-repeat 0px 50%;
+    _background-image: url(img/icon_play.gif);
+}
+
+a.sm2_playing, a.sm2_playing:hover {
+    background: url(img/icon_pause.png) no-repeat 0px 50%;
+    _background-image: url(img/icon_pause.gif);
+    text-decoration: none;
+}
+
+#sm2-container.swf-default,
+#sm2-container.swf-timedout,
+#sm2-container.swf-loaded {
+ /*
+
+  Default style for SM2 container, effectively "hidden" out of view (on-screen via position:fixed for efficiency)
+  Apply this class name when SM2 has started, so the movie can be repositioned to its normal "hidden" place
+
+ */
+  position:fixed;
+  bottom:0px;
+  left:0px;
+  width:8px;
+  height:8px;
+  margin:2px;
+
+  /* IE 6 hax, since no position:fixed */
+  _position:absolute;
+  _left:-9999px;
+  _top:-9999px;
+}
+
+#sm2-container.swf-default,
+#sm2-container.swf-timedout {
+ /* 
+
+  The box where the SWF is appended and hasn't loaded in time, OR hasn't started loading yet.
+  Once the SWF has loaded and SM2 starts, this will change to .swf-loaded
+  Shown here at 48x48px so a flash icon has room to be shown, etc.
+
+ */
+ width:48px;
+ height:48px;
+ padding:1px;
+ _position:absolute; /* IE 6 hax */
+ _left:0px;
+ _top:0px;
+}
+
+#sm2-container.swf-timedout {
+ position:static;
+ margin-left:250px;
+ border:1px solid #ff3333;
+}
+
+#sm2-container.swf-loaded {
+ border:none;
+ background-color:transparent;
+  position:fixed;
+  bottom:0px;
+  left:0px;
+  width:8px;
+  height:8px;
+  margin:2px;
+}
+
+#info {
+	visibility: hidden;
+}
+
+.error, .notice, .success {
+	border: 1px solid #DDD;
+	margin-bottom: 1em;
+	padding: 0.6em 0.8em;
+	width: 67%;
+}
+
+.error {background: #FBE3E4; color: #8A1F11; border-color: #FBC2C4;}
+.error a {color: #8A1F11;}
+
+.notice {background: #FFF6BF; color: #514721; border-color: #FFD324;}
+.notice a {color: #514721;}
+
+.success {background: #E6EFC2; color: #264409; border-color: #C6D880;}
+.success a {color: #264409;}
+
+.quiet {color: #999;}
+.small {font-size: 0.9em;}
+.smaller {font-size: 0.8em;}
+.smallest {font-size: 0.7em;}
