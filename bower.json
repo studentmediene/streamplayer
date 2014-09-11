@@ -1,0 +1,25 @@
+{
+  "name": "radiostreamplayer",
+  "version": "0.0.0",
+  "description": "Radio Revolt stream player",
+  "keywords": [
+    "Audio"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.14",
+    "bootstrap": "~3.2.0",
+    "soundmanager2": "V2.97a.20140901"
+  },
+  "devDependencies": {
+    "moment": "~2.8.3"
+  }
+}

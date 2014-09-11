@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="no">
+    <meta charset="UTF-8">
+    <title>Radio Revolt Live!</title>
+
+    <link rel="stylesheet" href="css/streamplayer.css"/>
+
+<body>
+
+<div class="content" ng-app="streamplayerApp" ng-show="loaded">
+    <div ng-controller="currentShowCtrl">
+        <h1 class="header" ng-cloak>Du hører på {{ title }}</h1>
+    </div>
+    <div ng-controller="soundCtrl">
+        <div class="stream" ng-class="{'play':!playing, 'pause':playing}" ng-click="togglePlay()"></div>
+    </div>
+</div>
+<script>
+    window.name = 'NG_DEFER_BOOTSTRAP!';
+    window.SM2_DEFER = true;
+</script>
+<script data-main="scripts/main" src="bower_components/requirejs/require.js"></script>
+</body>
+</html>

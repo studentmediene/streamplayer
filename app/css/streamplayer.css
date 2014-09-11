@@ -1,0 +1,52 @@
+body {
+    background: #FFF url("../img/logo_skjev.png") no-repeat;
+    color: #334;
+    font: normal 75% 'Lucida Grande', 'Lucida Sans Unicode', 'Bitstream Vera Sans', Arial, sans-serif;
+}
+
+.header {
+    margin-bottom: 20px;
+
+}
+
+.content {
+    margin: 50px 10px 10px 200px;
+}
+
+.stream {
+    display: inline-block;
+    min-height: 40px;
+    _height: 40px;
+    text-decoration: none;
+    padding: 10px 0px 0px 50px;
+}
+
+.pause {
+    background: url(../img/icon_pause.png) no-repeat;
+}
+
+.play {
+    background: url(../img/icon_play.png) no-repeat;
+
+}
+
+[ng\:cloak], [ng-cloak], .ng-cloak {
+    display: none !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a img {
+	border: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
