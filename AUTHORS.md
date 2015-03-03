@@ -1,0 +1,3 @@
+# Authors
+
+* Jonas W. Strømsodd
