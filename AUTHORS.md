@@ -1,9 +1,9 @@
 Authors
 ====================
 
-Jørgen Jervidalo
-Lars Kinn Ekroll
-Trygve Bertelsen Wiig
-m.fl.
+* Jørgen Jervidalo
+* Lars Kinn Ekroll
+* Trygve Bertelsen Wiig
+* m.fl.
 
-soundmanager2.js av Scott Schiller
+soundmanager2.js is written by Scott Schiller.
