@@ -1,7 +1,18 @@
-streamplayer
-=====================
+# Radio Revolt streamplayer
 
-Scripts to play the Radio Revolt mp3 streams served by IceCast. Configuration file
-can be modified to play any mp3 stream, as well as customize the front-end.
+### Building the project
+To build the project, run
 
-Contains an unfinished HTML5 player.
+```bash
+    npm install
+    bower install
+    grunt
+```
+
+### Serve the project
+The simplest way to serve the project (yet) is to:
+
+```bash
+    cd app/
+    python -m SimpleHTTPServer 8080
+```

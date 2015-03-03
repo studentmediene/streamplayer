@@ -1,9 +1,0 @@
-var settings = {
-	"channel_name": "Radio Revolt Treningsradio",
-	"stream": "campus",
-	"url_to_stream": "http://streamer.radiorevolt.no:8000",
-	"contact_email": "teknikk@radiorevolt.no",
-    "custom_listening_string": "Radio Revolt Treningsradio",
-    "enable_nowplaying": "false",
-    "custom_notice": "Radio Revolt gir deg treningsradio med lite snakk og mye musikk! Radioverter er Vanja, Stine og Tomek.\nNysgjerrig på musikken vi spiller i sendingene våre? Sjekk ut og subscribe til <a href=\"http://open.spotify.com/user/radiorevolt/playlist/0vLfUPQ3oYErMmUb9f7mc5\" target=\"_blank\" style=\"color:#0000cc;\">spillelisten vår på Spotify!</a>"
-}
